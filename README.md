@@ -1,5 +1,7 @@
 # service-escalation-executable
 
+*credit to HTM* | https://tryhackme.com/room/windowsprivescarena
+
 * If we check the 'regsvc' registry and the "NT AUTHORITY\INTERACTIVE" has "FullControl", then we can exploit this.
 * The exploit is to *compile a malicious executable*  that is written in C, and make that *executable run a command*.
 * The command that we will make it run is to add a user to the *Administrators localgroup*.
