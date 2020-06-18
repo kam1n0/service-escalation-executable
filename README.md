@@ -48,9 +48,9 @@
 
 [![Image of execute](https://github.com/kam1n0/service-escalation-executable/blob/master/tmp_upload/execute.png)](#)
 
-* Here is the breakdown of this*reg add* command:
-			1. 'reg add' is adding to the 'regsvc' registry
-			2. 'v' is adding a registry value of 'ImagePath'
+-Here is the breakdown of this*reg add* command:
+  -'reg add' is adding to the 'regsvc' registry
+  -'v' is adding a registry value of 'ImagePath'
 			3. 'ImagePath' is a registry key that contains the path of the drivers image file
 				* If we place an executable here, when we tell the service to start in the ImagePath, it is going to run the executable
 			4. 't' is of the type REG_EXPAND, which is saying "this is a string value"
