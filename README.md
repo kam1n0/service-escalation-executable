@@ -48,7 +48,7 @@
 
 [![Image of execute](https://github.com/kam1n0/service-escalation-executable/blob/master/tmp_upload/execute.png)](#)
 
--Here is the breakdown of this*reg add* command:
+- Here is the breakdown of this*reg add* command:
   -'reg add' is adding to the 'regsvc' registry
   -'v' is adding a registry value of 'ImagePath'
 			3. 'ImagePath' is a registry key that contains the path of the drivers image file
