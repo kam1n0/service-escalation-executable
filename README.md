@@ -49,13 +49,13 @@
 [![Image of execute](https://github.com/kam1n0/service-escalation-executable/blob/master/tmp_upload/execute.png)](#)
 
 - Here is the breakdown of this*reg add* command:
-  -'reg add' is adding to the 'regsvc' registry
-  -'v' is adding a registry value of 'ImagePath'
-			3. 'ImagePath' is a registry key that contains the path of the drivers image file
-				* If we place an executable here, when we tell the service to start in the ImagePath, it is going to run the executable
-			4. 't' is of the type REG_EXPAND, which is saying "this is a string value"
-				* The "string value" is the /d (data) C:\temp\x.exe
-			5. 'f' says to not provide any prompts
+  - 'reg add' is adding to the 'regsvc' registry
+  - 'v' is adding a registry value of 'ImagePath'
+  - 'ImagePath' is a registry key that contains the path of the drivers image file
+   - If we place an executable here, when we tell the service to start in the ImagePath, it is going to run the executable
+  - 't' is of the type REG_EXPAND, which is saying "this is a string value"
+   - The "string value" is the /d (data) C:\temp\x.exe
+  - 'f' says to not provide any prompts
 
 9) In the command prompt, type *'sc start regsvc'*:
 
