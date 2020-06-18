@@ -1,4 +1,4 @@
-# service-escalation-executable
+# service-escalation-registry
 
 *credit to HTM* | https://tryhackme.com/room/windowsprivescarena
 
